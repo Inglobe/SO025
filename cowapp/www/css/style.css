@@ -106,7 +106,7 @@ table th{
 }
 table td{
 
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.61);
 	text-align: center;
 	
 }
@@ -264,4 +264,25 @@ tbody {
 .fifth_2.btn-default.active, .fifth_2.btn-default:active, .fifth_2.btn-default:hover, .fifth_2.btn-default:focus{
 	background-color: #771519;
 	color: #fff;
+}
+
+/*-------------Final Screen----------------*/
+.functions_f{
+	display: block;
+}
+
+.functions_f button{
+	display: block;
+	margin-top: 1em;	
+	font-size: 1.5em;
+}
+.functions_f .glyphicon{
+	float: right;
+	top: 5px;
+
+}
+
+.row_selected {
+
+background-color: #771519;
 }
