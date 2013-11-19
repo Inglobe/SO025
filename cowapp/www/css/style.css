@@ -7,7 +7,7 @@ body {
 .app {
 
 	background:none;
-	width: 300px;
+	width: 280px;
 	height: 600px;
 	padding-left:1em;
 	padding-right:1em;
@@ -58,7 +58,7 @@ header .row{
 }
 header h4{
 
-	font-size: 1em;
+	font-size: 0.7em;
 }
 
 header a{
@@ -132,12 +132,28 @@ tbody {
 	width: 2em;
 
 }
-#addcow{
+.addcow{
 
 	background-color: #771519;
 	border: none;
 	width: 100%;
 	text-align: left;
+}
+.addcow:hover{
+
+	background-color: #683D3F;
+}
+
+.ready{
+
+	background-color: #771519;
+	border: none;
+	width: 100%;
+	text-align: center;
+}
+.ready:hover{
+
+	background-color: #683D3F;
 }
 
 #becerro{
@@ -148,6 +164,9 @@ tbody {
 	text-align: left;
 }
 
+#becerro:hover{
+	background-color:#155341;
+}
 
 /*-------------Third Screen----------------*/
 #third .row{
@@ -155,7 +174,7 @@ tbody {
 	margin-bottom: 1em;
 
 }
-#raza h4 {
+.raza h4 {
 	font-size: 14px;
 	text-align: left;
 	color: white;
@@ -165,10 +184,11 @@ tbody {
 	background-color: #07251c;
 	text-transform:none;
 	border-radius: 5px;
+	margin-bottom: 0px;
 
 }
 #higiene h4 {
-	font-size: 14px;
+	font-size: 12px;
 	text-align: left;
 	color: white;
 	padding-left: 1em;
@@ -215,4 +235,33 @@ tbody {
 .input-group-sm>.form-control{
 	height: 33px;
 	font-size: 14px;
+}
+
+/*-------------Forth Screen----------------*/
+#forth .row{
+
+	margin-bottom: 1.5em;
+
+}
+
+/*-------------Fifth Screen----------------*/
+
+.fifth.btn-default{
+	border: none;
+	background-color: #07251c;
+	color: #fff;
+}
+
+.fifth.btn-default.active, .fifth.btn-default:active, .fifth.btn-default:hover, .fifth.btn-default:focus{
+	background-color: #771519;
+	color: #fff;
+}
+.fifth_2.btn-default{
+	background-color: #fff;
+	color: #07251c;
+}
+
+.fifth_2.btn-default.active, .fifth_2.btn-default:active, .fifth_2.btn-default:hover, .fifth_2.btn-default:focus{
+	background-color: #771519;
+	color: #fff;
 }

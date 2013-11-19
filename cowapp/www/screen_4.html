@@ -25,32 +25,66 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <title>Calving App_3</title>
+        <title>Calving App_4</title>
     </head>
     <body>
         <div class="app">
             <header>
-                <div class="row">                 
-                    <div class="col-xs-6 col-sm-6 col-md-6"><h4>IC | Info.Vaca</h4></div>
-                    <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
+                <div class="row">
+                   <div class="col-xs-6 col-sm-6 col-md-6"><h4>IC | Parto</h4></div>
+                   <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
                 </div>
-            </header>  
-            <form action="">      
+            </header>
+            <form action="">
+            <div class="row">                
+                  <div id="higiene" class="col-md-6">
+                    <h4>Cant. Becerros</h4>
+                  </div>
+                  <div class="col-md-6">                    
+                    <div id="perineo" class="btn-toolbar" role="toolbar">
+                      <div class="btn-group-justified" data-toggle="buttons">
+                        <label class="btn btn-default">
+                        <input name="group3" type="radio" value="1">1</button>
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group3" type="radio" value="2">2</button>
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group3" type="radio" value="3">3</button>
+                        </label>
+                      </div>                  
+                    </div>                  
+                  </div>                  
+            </div>                       
+            <div id="forth">
             <div class="row">
-                   <div class="col-md-6">
-                      <div class="input-group input-group-sm" >
-                        <span class="input-group-addon">ID</span>
-                        <input type="text" class="form-control" placeholder="" maxlength="4">
-                      </div>
-                   </div>
-                    <div class="col-md-6">
-                      <div class="input-group input-group-sm" >
-                        <span class="input-group-addon">Lac.</span>
-                        <input type="text" class="form-control" placeholder="" maxlength="2">
-                      </div>
+                  <div class="raza col-md-12">
+                    <h4>Dificultad:</h4>
+                  </div>
+                  <div id="raza_option"class="col-md-12">
+                    <div class="btn-toolbar" role="toolbar">
+                      <div class="btn-group-justified" data-toggle="buttons">
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value="1">1
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value="2">2
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value="3">3
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value="4">4
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value="5">5
+                        </label>
+                        <label class="btn btn-default">
+                        <input name="group4" type="radio" value=".">.
+                      </div>                  
                     </div>
-            </div>  
-            <div id="third">
+                  </div>
+            </div>
             <div class="row">
                   <div class="raza col-md-12">
                     <h4>Raza:</h4>
@@ -59,66 +93,42 @@
                     <div class="btn-toolbar" role="toolbar">
                       <div class="btn-group-justified" data-toggle="buttons">
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="h">H
+                        <input name="group5" type="radio" value="h">H
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="j">J
+                        <input name="group5" type="radio" value="j">J
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="x">X
+                        <input name="group5" type="radio" value="x">X
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="b">B
+                        <input name="group5" type="radio" value="b">B
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="r">R
+                        <input name="group5" type="radio" value="r">R
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value="g">G
+                        <input name="group5" type="radio" value="g">G
                         </label>
                         <label class="btn btn-default">
-                        <input name="group1" type="radio" value=".">.
+                        <input name="group5" type="radio" value=".">.
                         </label>
                       </div>                  
                     </div>
                   </div>
             </div>
 
-            <div class="row">
-                  <div id="higiene" class="col-md-6">
-                    <h4>Higiene perineo</h4>
-                  </div>
-                  <div class="col-md-6">                    
-                    <div id="perineo" class="btn-toolbar" role="toolbar">
-                      <div class="btn-group-justified" data-toggle="buttons">
-                        <label class="btn btn-default">
-                        <input name="group2" type="radio" value="1">1</button>
-                        </label>
-                        <label class="btn btn-default">
-                        <input name="group2" type="radio" value="2">2</button>
-                        </label>
-                        <label class="btn btn-default">
-                        <input name="group2" type="radio" value="3">3</button>
-                        </label>
-                      </div>                  
-                    </div>                  
-                  </div>                  
-            </div>
              <div class="row">
-                  <div class="col-md-12">
-                      <div class="input-group input-group-sm" >
-                        <span class="input-group-addon">CC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <input type="text" class="form-control" placeholder="Número">
-                      </div>                  
+                  <div class="col-md-12">                      
                       <div class="input-group input-group-sm" >
                         <span class="input-group-addon">Técnico</span>
                         <input type="text" class="form-control" placeholder="Nombre">
                       </div>                   
-                   <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-time"></span> Comienzo</button>
+                   <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-ok"></span> Listo!</button>
                    </div>                   
             </div>
             </div>
-        </div>
+        </form>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
