@@ -1,0 +1,122 @@
+body {
+
+	background-color:#029e73;
+	background-image: none;
+}
+
+.app {
+
+	background:none;
+	width: 300px;
+	height: 600px;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+.app li{
+	display: inline;
+
+}
+.input-group{
+
+	margin-bottom: 1em;
+}
+
+#login{
+	background-color: #07251c;
+	color: white;
+	width:100%;
+}
+
+header {
+
+	background-color: #07251c;
+	color: white;
+	text-align: left;
+	margin-left:-1em;
+	margin-right:-1em;
+}
+
+
+
+header p{
+
+	padding-left: 1em;
+
+}
+
+.panel{
+	background-color:rgba(255, 255, 255, 0);
+	border:none;
+
+}
+.panel-default>.panel-heading {
+	text-align: left;
+	background-color: #07251c;
+	color: white;
+	margin-bottom: 0.5em;
+	border:none;
+	padding:3px 15px;
+}
+
+#activecows{
+	margin-bottom: 0;
+}
+.dataTables_scrollHead{
+
+	background-color: #07251c;
+}
+.dataTable{
+
+	margin-bottom: 0;
+		
+}
+
+table th{
+	background-color: #07251c;
+	color: white;	
+	text-align: center;
+}
+table td{
+
+	background-color: white;
+	text-align: center;
+	
+}
+tbody {
+	border-color: black;
+	overflow: auto;
+	max-height: 150px;
+
+}
+
+.functions{
+	display: block;
+}
+
+.functions button{
+	display: block;
+	margin-top: 1em;
+	padding-left: 2em;
+	font-size: 1.5em;
+}
+.functions .glyphicon:empty{
+	float: left;
+	width: 2em;
+
+}
+#addcow{
+
+	background-color: #771519;
+	border: none;
+	width: 100%;
+	text-align: left;
+}
+
+#becerro{
+
+	background-color: #07251c;
+	border: none;
+	width: 100%;
+	text-align: left;
+}
