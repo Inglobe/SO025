@@ -17,6 +17,13 @@ body {
 	display: inline;
 
 }
+
+/*-------------First Screen----------------*/
+.input-group-addon{
+	background-color: #07251c;
+	color: white;
+
+}
 .input-group{
 
 	margin-bottom: 1em;
@@ -27,7 +34,7 @@ body {
 	color: white;
 	width:100%;
 }
-
+/*-------------Header----------------*/
 header {
 
 	background-color: #07251c;
@@ -35,15 +42,35 @@ header {
 	text-align: left;
 	margin-left:-1em;
 	margin-right:-1em;
+	margin-bottom: 0.5em;
 }
-
-
 
 header p{
 
 	padding-left: 1em;
+}
+
+header .row{
+
+	margin-left: 0;
+	margin-right: 0;
 
 }
+header h4{
+
+	font-size: 1em;
+}
+
+header a{
+	color: white;
+}
+header a:hover{
+	color: #919191;
+	text-decoration: none;
+}
+
+/*-------------Second Screen----------------*/
+
 
 .panel{
 	background-color:rgba(255, 255, 255, 0);
@@ -119,4 +146,73 @@ tbody {
 	border: none;
 	width: 100%;
 	text-align: left;
+}
+
+
+/*-------------Third Screen----------------*/
+#third .row{
+
+	margin-bottom: 1em;
+
+}
+#raza h4 {
+	font-size: 14px;
+	text-align: left;
+	color: white;
+	padding-left: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #07251c;
+	text-transform:none;
+	border-radius: 5px;
+
+}
+#higiene h4 {
+	font-size: 14px;
+	text-align: left;
+	color: white;
+	padding-left: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #07251c;
+	text-transform:none;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+
+}
+
+#perineo{
+
+	font-size: 14px;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#raza_option .btn-group-justified .btn{
+	width: 14%;
+}
+.btn-default{
+	background-color: white;
+	color: #07251c;
+}
+
+.btn-default.active, .btn-default:active, .btn-default:hover, .btn-default:focus{
+	background-color: #07251c;
+	color: white;
+}
+
+#perineo .btn-group-justified .btn{
+	width: 32%;
+}
+.input-group-sm>.input-group-addon{
+	padding-left: 1em;
+	font-size: 14px;
+	text-transform: none;
+	border: none;
+}
+.input-group-sm>.form-control{
+	height: 33px;
+	font-size: 14px;
 }
