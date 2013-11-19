@@ -104,9 +104,16 @@ table th{
 	color: white;	
 	text-align: center;
 }
+
+#activelist td{
+
+	background-color: rgba(255, 255, 255, 0.65);
+	text-align: center;
+	
+}
 table td{
 
-	background-color: rgba(255, 255, 255, 0.61);
+	background-color: #fff;
 	text-align: center;
 	
 }
@@ -244,6 +251,9 @@ tbody {
 
 }
 
+
+
+
 /*-------------Fifth Screen----------------*/
 
 .fifth.btn-default{
@@ -286,3 +296,4 @@ tbody {
 
 background-color: #771519;
 }
+
