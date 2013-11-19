@@ -23,57 +23,28 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
-        <link rel="stylesheet" href="css/codiqa.ext.css">
-
-        <title>Second App</title>
-         <!-- jQuery and jQuery Mobile -->
-          <script src="js/jquery-1.9.1.min.js"></script>
-          <script src="js/jquery.mobile-1.3.1.min.js"></script>
-
-          <!-- Extra Codiqa features -->
-          <script src="js/codiqa.ext.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>Calving App</title>
     </head>
     <body>
-      <!-- Home -->
-        <div data-role="page" id="page1">
-            <div data-theme="a" data-role="header">
-                <h3>
-                    App
-                </h3>
+        <div class="app">
+            <img src="img/logo.png"/>
+            <div class="input-group input-group-lg" >
+              <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
+
+              <input type="text" class="form-control" placeholder="Username">
+              </div>
+              <div class="input-group input-group-lg">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+              <input type="password" class="form-control" placeholder="Password">
             </div>
-            <div data-role="content">
-                <div class="ui-grid-a">
-                    <div class="ui-block-a">
-                        <a data-role="button" href="#page1">
-                            Evento
-                        </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <a data-role="button" href="#page1">
-                            Reportes
-                        </a>
-                    </div>
-                </div>
-                <div data-role="collapsible-set">
-                    <div data-role="collapsible">
-                        <h3>
-                            Vacas activas
-                        </h3>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="false">
-                        <h3>
-                            Becerro Activo
-                        </h3>
-                        <a data-role="button" href="#page1">
-                            Borrar
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <button id="login" type="submit" class="btn btn-primary btn-lg">Ingresar</button>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
