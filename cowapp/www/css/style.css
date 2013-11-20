@@ -7,16 +7,24 @@ body {
 .app {
 
 	background:none;
-	width: 280px;
-	height: 600px;
-	padding-left:1em;
-	padding-right:1em;
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 
 .app li{
 	display: inline;
 
 }
+
+.container{
+
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+
 
 /*-------------First Screen----------------*/
 .input-group-addon{
@@ -35,16 +43,24 @@ body {
 	width:100%;
 }
 /*-------------Header----------------*/
-header {
+.header {
 
 	background-color: #07251c;
 	color: white;
 	text-align: left;
-	margin-left:-1em;
-	margin-right:-1em;
 	margin-bottom: 0.5em;
-}
+	width: 100%;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	margin-right: 0;
+	margin-left: 0;
 
+}
+.header h4{
+
+	font-size: 0.7em;
+}
+/*
 header p{
 
 	padding-left: 1em;
@@ -56,10 +72,7 @@ header .row{
 	margin-right: 0;
 
 }
-header h4{
 
-	font-size: 0.7em;
-}
 
 header a{
 	color: white;
@@ -67,7 +80,7 @@ header a{
 header a:hover{
 	color: #919191;
 	text-decoration: none;
-}
+}*/
 
 /*-------------Second Screen----------------*/
 

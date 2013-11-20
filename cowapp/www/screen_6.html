@@ -28,13 +28,12 @@
         <title>Calving App_5</title>
     </head>
     <body>
-        <div class="app">
-            <header>
-                <div class="row">
+       <div class="app">              
+            <div class="header row">
                    <div class="col-xs-6 col-sm-6 col-md-6"><h4>IC | Becerro</h4></div>
                    <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
-                </div>
-            </header>
+            </div>
+            <div class="container">
             <div id="forth">
             <form action="">   
                 <div class="row">
@@ -62,24 +61,14 @@
                        <button type="submit" class="ready btn btn-primary btn-lg"style="margin-top:1em;"><span class="glyphicon glyphicon-ok"></span> Listo!</button>
                        </div>                   
                 </div>
+                </div>
             </form>
             </div>
 
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>        
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-
-           $(document).ready(function() {
-                $('#activecows').dataTable( {
-                    "sScrollY": "150px",
-                    "bPaginate": false,
-                    "bInfo": false             
-                } );
-            } );
-        </script>
         <script type="text/javascript">
             app.initialize();
         </script>

@@ -28,19 +28,18 @@
         <title>Calving App_4</title>
     </head>
     <body>
-        <div class="app">
-            <header>
-                <div class="row">
-                   <div class="col-xs-7ock col-sm-7 col-md-7"><h4>IC | ID: 2321 <a href="screen_2.html"><span  class="glyphicon glyphicon-repeat"></span></a></h4></div>
-                   <div class="col-xs-5 col-sm-5 col-md-5" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
-                </div>
-            </header>
+        <div class="app">              
+            <div class="header row">
+                   <div class="col-xs-6 col-sm-6 col-md-6"><h4>IC | ID: 2321 <a href="screen_2.html"><span  class="glyphicon glyphicon-repeat"></span></a></h4></div>
+                   <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
+            </div>
+            <div class="container"> 
             <form action="">
             <div class="row">                
-                  <div id="higiene" class="col-md-6">
+                  <div id="higiene" class="col-xs-6 col-sm-6 col-md-6">
                     <h4>Cant. Becerros</h4>
                   </div>
-                  <div class="col-md-6">                    
+                  <div class="col-xs-6 col-sm-6 col-md-6">                    
                     <div id="perineo" class="btn-toolbar" role="toolbar">
                       <div class="btn-group-justified" data-toggle="buttons">
                         <label class="btn btn-default">
@@ -127,23 +126,14 @@
                    <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-ok"></span> Listo!</button>
                    </div>                   
             </div>
-            </div>
-        </form>
+            </div>      
+          </form>
+        </div>
+    
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>        
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-
-           $(document).ready(function() {
-                $('#activecows').dataTable( {
-                    "sScrollY": "150px",
-                    "bPaginate": false,
-                    "bInfo": false             
-                } );
-            } );
-        </script>
         <script type="text/javascript">
             app.initialize();
         </script>
