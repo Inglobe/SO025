@@ -60,6 +60,23 @@ body {
 
 	font-size: 0.7em;
 }
+
+#logo{
+
+
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left:auto;
+	text-align:center;
+	margin-bottom: 2em;
+
+}
+
+#home-ico, #lock-ico{
+	background-color: #ccc;
+	color: #07251c;
+}
+
 /*
 header p{
 
