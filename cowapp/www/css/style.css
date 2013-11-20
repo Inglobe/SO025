@@ -42,6 +42,19 @@ body {
 	color: white;
 	width:100%;
 }
+
+#margins .row{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 5%;
+
+}
+
+#margins .row:last-child{
+
+	margin-bottom: 0;
+
+}
 /*-------------Header----------------*/
 .header {
 
@@ -77,27 +90,6 @@ body {
 	color: #07251c;
 }
 
-/*
-header p{
-
-	padding-left: 1em;
-}
-
-header .row{
-
-	margin-left: 0;
-	margin-right: 0;
-
-}
-
-
-header a{
-	color: white;
-}
-header a:hover{
-	color: #919191;
-	text-decoration: none;
-}*/
 
 /*-------------Second Screen----------------*/
 
@@ -206,11 +198,7 @@ tbody {
 }
 
 /*-------------Third Screen----------------*/
-#third .row{
 
-	margin-bottom: 1em;
-
-}
 .raza h4 {
 	font-size: 14px;
 	text-align: left;
@@ -236,8 +224,6 @@ tbody {
 	border-radius: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-
-
 }
 
 #perineo{
@@ -275,13 +261,6 @@ tbody {
 }
 
 /*-------------Forth Screen----------------*/
-#forth .row{
-
-	margin-bottom: 1.5em;
-
-}
-
-
 
 
 /*-------------Fifth Screen----------------*/

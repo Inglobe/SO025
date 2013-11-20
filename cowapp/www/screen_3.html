@@ -29,27 +29,37 @@
     </head>
     <body>
       <div class="app">              
-                <div class="header row">                  
-                    <div class="col-xs-6 col-sm-6 col-md-6"><h4><img src="img/vaca.png"/> | <strong>INFO.Vaca</strong></h4></div>
-                    <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
-                </div>
+            <div class="header row">                  
+                <div class="col-xs-6 col-sm-6 col-md-6"><h4><img src="img/vaca.png"/> | <strong>INFO.Vaca</strong></h4></div>
+                <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
+            </div>
             <div class="container"> 
-            <form action="">      
+            <form action=""> 
+            <div id="margins">     
             <div class="row">
                    <div class="col-xs-6 col-sm-6 col-md-6">
                       <div class="input-group input-group-sm" >
                         <span class="input-group-addon">ID</span>
                         <input type="text" class="form-control" placeholder="" maxlength="4">
                       </div>
-                   </div>
+                    </div>
+            </div>  
+            <div class="row">                    
                     <div class="col-xs-6 col-sm-6 col-md-6">
                       <div class="input-group input-group-sm" >
                         <span class="input-group-addon">Lac.</span>
                         <input type="text" class="form-control" placeholder="" maxlength="2">
+                      </div>                      
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="input-group input-group-sm" >
+                        <span class="input-group-addon">CC</span>
+                        <input type="text" class="form-control" placeholder="Número">
                       </div>
                     </div>
-            </div>  
-            <div id="third">
+            </div>
+            
+            
             <div class="row">
                   <div class="raza col-md-12 col-xs-12 col-sm-12">
                     <h4>Raza:</h4>
@@ -87,7 +97,7 @@
                   <div id="higiene" class="col-md-6 col-xs-6 col-sm-6">
                     <h4>Higiene perineo</h4>
                   </div>
-                  <div class="col-md-6">                    
+                  <div class="col-md-6 col-xs-6 col-sm-6">                    
                     <div id="perineo" class="btn-toolbar" role="toolbar">
                       <div class="btn-group-justified" data-toggle="buttons">
                         <label class="btn btn-default">
@@ -104,20 +114,17 @@
                   </div>                  
             </div>
              <div class="row">
-                  <div class="col-md-12 col-xs-12 col-sm-12">
-                      <div class="input-group input-group-sm" >
-                        <span class="input-group-addon">CC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <input type="text" class="form-control" placeholder="Número">
-                      </div>                  
+                  <div class="col-md-12 col-xs-12 col-sm-12">                
                       <div class="input-group input-group-sm" >
                         <span class="input-group-addon">Técnico</span>
                         <input type="text" class="form-control" placeholder="Nombre">
                       </div>                   
-                   <button type="submit" class="ready btn btn-primary btn-lg" style="margin-top:2em;"><span class="glyphicon glyphicon-time"></span> Comienzo</button>
+                   <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-time"></span> Comienzo Parto</button>
                    </div>                   
             </div>
             </div>
           </form>
+         </div>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
