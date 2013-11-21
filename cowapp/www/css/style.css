@@ -43,14 +43,28 @@ body {
 	width:100%;
 }
 
-#margins .row{
+.margins .row{
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 5%;
 
 }
 
-#margins .row:last-child{
+.margins .row:last-child{
+
+	margin-bottom: 0;
+
+}
+
+
+.margins_small .row{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 2%;
+
+}
+
+.margins_small .row:last-child{
 
 	margin-bottom: 0;
 
@@ -72,6 +86,17 @@ body {
 .header h4{
 
 	font-size: 0.7em;
+}
+
+.header a{
+	text-decoration:none;
+	cursor: pointer;
+	font-size: 1.2em;
+	color: white;
+}
+.header a:hover{
+	font-style: none;
+	color: #683D3F;
 }
 
 #logo{
@@ -213,7 +238,7 @@ tbody {
 
 }
 #higiene h4 {
-	font-size: 12px;
+	font-size: 14px;
 	text-align: left;
 	color: white;
 	padding-left: 1em;
@@ -222,8 +247,7 @@ tbody {
 	background-color: #07251c;
 	text-transform:none;
 	border-radius: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+
 }
 
 #perineo{
@@ -264,6 +288,16 @@ tbody {
 
 
 /*-------------Fifth Screen----------------*/
+
+#status_b,#gender{
+	border-spacing: 0.5em;
+}
+
+.btn-group-justified{
+
+	border-spacing: 0.5em;
+
+}
 
 .fifth.btn-default{
 	border: none;
