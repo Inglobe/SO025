@@ -43,6 +43,12 @@ body {
 	width:100%;
 }
 
+#lang a{
+
+	color: white;
+
+}
+
 .margins .row{
 	margin-left: 0;
 	margin-right: 0;
