@@ -34,7 +34,7 @@
                <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: right;"><h4><a href="screen_4.html"><span class="glyphicon glyphicon-arrow-left"></span> Volver</a></h4></div>
             </div>
             <div class="container">
-            <div class="margins">            
+            <div class="margins_small">            
             <form action="">
                 <div class="row"> 
                     <div class="col-xs-12 col-sm-12 col-md-12">                        
@@ -105,8 +105,38 @@
                         <input type="text" class="form-control" placeholder="Nombre">
                         </div>
                     <!-- ***** EL BOTON DE ABAJO REPITE LA PANTALLA HASTA LLEGAR A LA CANTIDAD DE BECERROS DEL PARTO LUEGO LLEVA A SCREEN_2.HTML -->                   
-                        <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-ok"></span> Listo!</button>
-                    </div>                   
+                        <button type="submit" class="ready btn btn-primary btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> Agregar</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <table id="activeb" class="table table-condensed">
+                          <thead>
+                            <tr>                              
+                              <th>Becerro</th>
+                              <th>Hora</th>
+                              <th>Fecha</th>
+                            </tr>
+                          </thead>
+                          <tbody>                
+                            <tr>                              
+                              <td>1233</td>
+                              <td>22:20</td>
+                              <td>11/02</td>
+                            </tr>
+                            <tr>                             
+                              <td>3214</td>
+                              <td>23:40</td>
+                              <td>11/02</td>
+                            </tr>
+                            <tr>                              
+                              <td>2312</td>
+                              <td>00:02</td>
+                              <td>11/03</td>
+                            </tr> 
+                        </table>
+                        <button type="submit" class="ready btn btn-primary btn-md" style="margin-top:2px;"><span class="glyphicon glyphicon-ok" ></span> Confirmar</button>
+                    </div>                  
                 </div>
             </form>
             </div>
@@ -118,6 +148,7 @@
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="js/jquery.dataTables.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
